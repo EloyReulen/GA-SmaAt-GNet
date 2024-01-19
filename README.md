@@ -1,5 +1,5 @@
 # GA-SmaAt-GNet
-PyTorch code for the Paper "GA-SmaAt-GNet: Generative Adversarial Small Attention GNet for Extreme Precipitation Nowcasting", [Arxiv-link] (https://arxiv.org/abs/2401.09881)
+PyTorch code for the Paper "GA-SmaAt-GNet: Generative Adversarial Small Attention GNet for Extreme Precipitation Nowcasting", [Arxiv-link](https://arxiv.org/abs/2401.09881).
 
 ![GAN](imgs/GA-SmaAt-GNet.png)
 ![SmaAt-GNet](imgs/SmaAt-GNet.png)
