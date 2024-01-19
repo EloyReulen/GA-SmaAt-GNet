@@ -1,0 +1,8 @@
+__pycache__
+.idea
+data
+runs
+lightning
+checkpoints
+.ruff_cache
+.mypy_cache
