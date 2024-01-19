@@ -45,7 +45,7 @@ For training on the precipitation data the [train_precip.py](train_precip.py) fi
 The training will save a checkpoint file for the top 3 best epochs in the directory specified with the `default_save_path` variable.
 
 The [test_precip.py](test_precip.py) can be used to calculate the permormance of the trained model on the test set by providing the location of the checkpoint file with the lowest validation loss and model name in the script. The results will be saved as .csv in the specified results folder.
-Pretrained checkpoint files of the models discussed in the paper are available upon request. Please write an email to e.reulen@students.uu.nl and s.mehrkanoon@uu.nl.
+Pretrained checkpoint files of the models discussed in the paper are available upon request. Please write an email to: s.mehrkanoon@uu.nl.
 
 ### Extreme Precipitation dataset
 The data consists of 25 years precipitation maps in 5-minute intervals from 1998-2022 with a 2.4km grid. 
