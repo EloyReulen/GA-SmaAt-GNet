@@ -1,6 +1,6 @@
 # GA-SmaAt-GNet
 
-PyTorch code for the Paper "GA-SmaAt-GNet: Generative Adversarial Small Attention GNet for Extreme Precipitation Nowcasting", [Arxiv-link](https://arxiv.org/abs/2401.09881).
+PyTorch code for the Paper "GA-SmaAt-GNet: Generative Adversarial Small Attention GNet for Extreme Precipitation Nowcasting" [Arxiv-link](https://arxiv.org/abs/2401.09881), [Elsevier-link](https://www.sciencedirect.com/science/article/pii/S0950705124012462).
 
 ![GAN](imgs/GA-SmaAt-GNet.png)
 ![SmaAt-GNet](imgs/SmaAt-GNet.png)
@@ -41,7 +41,7 @@ grad-cam
 
 For the paper we used [Pytorch-Lightning](https://github.com/Lightning-AI/lightning) which simplifies the training process and allows easy additions of loggers and checkpoint creations.
 
-If you have any questions about the code you can write an email to e.reulen@students.uu.nl and s.mehrkanoon@uu.nl.
+If you have any questions about the code you can write an email to ereulen.uu@gmail.com and s.mehrkanoon@uu.nl.
 
 ### Training
 
@@ -50,7 +50,7 @@ An example training script [train_moving_mnist.py](train_moving_mnist.py) is pro
 For training on the precipitation data the [train_precip.py](train_precip.py) file can be used. Make sure that the model you want to train is correctly specified in the model parameter of the script.
 The training will save a checkpoint file for the top 3 best epochs in the directory specified with the `default_save_path` variable.
 
-The [test_precip.py](test_precip.py) can be used to calculate the permormance of the trained model on the test set by providing the location of the checkpoint file with the lowest validation loss and model name in the script. The results will be saved as .csv in the specified results folder.
+The [test_precip.py](test_precip.py) can be used to calculate the performance of the trained model on the test set by providing the location of the checkpoint file with the lowest validation loss and model name in the script. The results will be saved as .csv in the specified results folder.
 Pretrained checkpoint files of the models discussed in the paper are available upon request. Please write an email to: s.mehrkanoon@uu.nl.
 
 ### Extreme Precipitation dataset
